@@ -101,8 +101,8 @@ def cost_to_buy(point, size):
 - [Quickstart](https://docs.polyorderbooks.com/quickstart) — a working request in a minute
 - [Working with L2 order books](https://docs.polyorderbooks.com/historical/order-books)
 - [Python SDK on PyPI](https://pypi.org/project/polyorderbooks/) — `pip install polyorderbooks`
-- [MCP server](https://github.com/poly-orderbooks/mcp-server) — the same data in Claude and Cursor
-- [n8n workflows](https://github.com/poly-orderbooks/n8n-templates) — slippage against real ladders
+- [MCP server](https://github.com/polyorderbookslabs/mcp-server) — the same data in Claude and Cursor
+- [n8n workflows](https://github.com/polyorderbookslabs/n8n-templates) — slippage against real ladders
 - [All free datasets](https://polyorderbooks.com/datasets) — including a research dataset with a DOI
 
 ## Questions
