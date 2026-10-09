@@ -14,7 +14,7 @@ export POLYORDERBOOKS_API_KEY="pob_..."
 ```
 
 Get a key at [polyorderbooks.com/signup](https://polyorderbooks.com/signup). The free tier covers
-7 days of history at `60s` resolution, which is enough to run everything here.
+3 days of history at `250ms` resolution, which is enough to run everything here.
 
 ## Examples
 
@@ -91,7 +91,7 @@ def cost_to_buy(point, size):
 - **Timestamps must be ISO-8601 or unix seconds.** Passing JavaScript-style milliseconds
   (`Date.now()`) is rejected — divide by 1000 first.
 - **Reuse the same `start_ts`, `end_ts`, and `resolution`** when following `next_cursor`.
-- **`resolution` is required** on history endpoints. Allowed: `1s`, `60s`, `1m`, `5m`, `10m`,
+- **`resolution` is required** on history endpoints. Allowed: `250ms`, `1s`, `60s`, `1m`, `5m`, `10m`,
   `15m`, `1h`, `6h`, `1d` — the finest available depends on your plan.
 - **Errors return `{"error", "message"}`**; branch on `error`, show `message`.
 
