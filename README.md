@@ -14,7 +14,7 @@ export POLYORDERBOOKS_API_KEY="pob_..."
 ```
 
 Get a key at [polyorderbooks.com/signup](https://polyorderbooks.com/signup). The free tier covers
-3 days of history at `250ms` resolution, which is enough to run everything here.
+1 day of history at `250ms` resolution, which is enough to run everything here.
 
 ## Examples
 
